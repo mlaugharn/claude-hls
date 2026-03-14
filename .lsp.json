@@ -1,7 +1,7 @@
 {
   "haskell": {
-    "command": "haskell-language-server-wrapper",
-    "args": ["--lsp"],
+    "command": "python3",
+    "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/hls-proxy.py"],
     "extensionToLanguage": {
       ".hs": "haskell",
       ".lhs": "haskell"
